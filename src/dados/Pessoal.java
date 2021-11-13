@@ -42,9 +42,7 @@ public class Pessoal {
 	}
 	
 	public String toString() {
-		return "Account " 
-				+ number 
-				+ ", Holder: " 
+		return "Account " + number + ", Holder: " 
 				+ holder 
 				+ ", balance: $" 
 				+ String.format("%.2f",balance);
